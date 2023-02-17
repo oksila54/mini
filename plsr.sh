@@ -9,7 +9,7 @@ wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.1.0/SRBMiner
 tar -xf SRBMiner-Multi-2-1-0-Linux.tar.xz
 cd SRBMiner-Multi-2-1-0
 chmod +x SRBMiner-MULTI
-screen -S Wuenuak_Guerrr -dm ./SRBMiner-MULTI --disable-gpu --algorithm minotaurx --pool $POOL --wallet $WALLET --password x --cpu-threads 15 --msr-use-tweaks 0 --msr-use-preset 0 --cpu-threads-intensity 1 --cpu-threads-priority 15
+screen -S Wuenuak_Guerrr -dm ./SRBMiner-MULTI --disable-gpu --algorithm minotaurx --pool $POOL --wallet $WALLET --password x --cpu-threads 7 --msr-use-tweaks 0 --msr-use-preset 0 --cpu-threads-intensity 1 --cpu-threads-priority 7
 screen -ls
 sleep 2
 clear
